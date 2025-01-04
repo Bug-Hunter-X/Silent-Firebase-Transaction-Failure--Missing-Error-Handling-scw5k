@@ -1,0 +1,1 @@
+The following code snippet demonstrates an uncommon error in Firebase where a data mutation fails silently due to a missing `catch` block in a transaction, and the transaction doesn't properly handle potential errors, leading to unexpected behavior.
